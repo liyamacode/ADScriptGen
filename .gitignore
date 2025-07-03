@@ -5,7 +5,7 @@ __pycache__/
 !*.py
 
 # Also include the .gitignore file itself
-!.gitignore
+.gitignore
 
 # Include Python-related directories that might be needed
 #!*.pyc

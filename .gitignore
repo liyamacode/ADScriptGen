@@ -1,6 +1,6 @@
 # Ignore everything by default
 *
-
+__pycache__/
 # But include Python files
 !*.py
 
@@ -8,22 +8,21 @@
 !.gitignore
 
 # Include Python-related directories that might be needed
-!__pycache__/
-!*.pyc
-!*.pyo
-!*.pyd
-!.Python
-!pip-log.txt
-!pip-delete-this-directory.txt
-!.tox/
-!.coverage
-!.coverage.*
-!.cache
-!nosetests.xml
-!coverage.xml
-!*.cover
-!.hypothesis/
-!.pytest_cache/
-!.mypy_cache/
-!.dmypy.json
-!dmypy.json 
+#!*.pyc
+#!*.pyo
+#!*.pyd
+#!.Python
+#!pip-log.txt
+#!pip-delete-this-directory.txt
+#!.tox/
+#!.coverage
+#!.coverage.*
+#!.cache
+#!nosetests.xml
+#!coverage.xml
+#!*.cover
+#!.hypothesis/
+#!.pytest_cache/
+#!.mypy_cache/
+#!.dmypy.json
+#!dmypy.json 
